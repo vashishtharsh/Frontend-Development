@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<h1>Contact form</h1>
+<br><br>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form>
+            <label for="">First name</label>
+            <input type="text" placeholder="Your name">
+
+            <label for="">Last name</label>
+            <input type="text" placeholder="Your name">
+            <br><br>
+
+            <label for="">Email</label>
+            <input type="Email" placeholder="Email">
+            <br><br>
+
+            <label for="">Phone No.</label>
+            <input type="tel" placeholder="Phone No.">
+            <br><br>
+
+            <label for="">Gender</label><br>
+            <label>Male</label>
+            <input type="radio" name="g1">
+            <label>Female</label>
+            <input type="radio" name="g1">
+            <br><br>
+
+            <label for="">Skills</label><br>
+            <label for="">HTML 5</label>
+            <input type="checkbox">
+            <label for="">CSS</label>
+            <input type="checkbox">
+            <label for="">JS</label>
+            <input type="checkbox">
+            <br><br>
+
+            <label for="">Your City</label>
+            <select name="" id="">
+                <option value="">Delhi</option>
+                <option value="">Maharashtra</option>
+                <option value="">Rajasthan</option>
+                <option value="">MP</option>
+                <option value="">Hariyana</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
