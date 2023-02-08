@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Html</title>
+    <style>
+    #circle{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: aqua;
+        position: absolute;
+        animation-name: stairs_ball;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-direction: alternate;
+
+    }
+
+    @keyframes stairs_ball{
+        0%{
+            left: 0;
+            top: 0;
+            background-color: aqua;
+        }
+        10%{
+            left: 49px;
+            top: 0;
+            background-color: rgb(0, 227, 227);
+        }
+        20%{
+            left: 49px;
+            top: 49px;
+            background-color: rgb(0, 203, 203);
+        }
+        30%{
+            left: 149px;
+            top: 49px;
+            background-color: rgb(0, 177, 177);
+        }
+        40%{
+            left: 149px;
+            top: 149px;
+            background-color: rgb(0, 142, 142);
+        }
+        50%{
+            left: 249px;
+            top: 149px;
+            background-color: rgb(0, 125, 125);
+        }
+        60%{
+            left: 249px;
+            top: 249px;
+            background-color: rgb(0, 121, 121);
+        }
+        70%{
+            left: 349px;
+            top: 249px;
+            background-color: rgb(0, 118, 118);
+        }
+        80%{
+            left: 349px;
+            top: 349px;
+            background-color: rgb(0, 108, 108);
+        }
+        90%{
+            left: 490px;
+            top: 349px;
+            background-color: rgb(0, 85, 85);
+        }
+        100%{
+            left: 490px;
+            top: 490px;
+            background-color: rgb(0, 71, 71);
+        }   
+    }
+    @keyframes body1{
+            0%{
+                background-color: white;
+            }
+            25%{
+                background-color: rgb(140, 140, 140);
+            }
+            50%{
+                background-color: rgb(0, 0, 0);
+            }
+            75%{
+                background-color: rgb(140, 140, 140);
+            }
+            100%{
+                background-color: white;
+            }
+}       
+    </style>
+</head>
+<body>
+    <div id="circle">
+    </div>
+</body>
+</html>
