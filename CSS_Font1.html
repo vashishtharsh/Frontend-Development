@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+.nav{
+	height:50px;
+	word-spacing:40px;
+}
+a{
+	text-decoration:none;
+	font-size:30px;
+	color:white;
+	font-weight:400;
+}
+a:hover{
+	color:orange;
+	font-family:Arial;
+	text-decoration:underline;
+    cursor:crosshair;
+}
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* img{
+    height: 100%;
+    width: 100%;
+} */
+table{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    backface-visibility:visible;
+}
+/* td{
+    background-color: yellow;
+    width: 300px;
+} */
+.para1{
+	font-size:40px;
+	text-shadow:3px 3px grey;
+    color: white;
+	   
+}
+.para1::first-letter{
+    font-size: 100px;
+}
+a::before{
+    content: "<";
+}
+a::after{
+    content: ">";
+}
+    </style>
+</head>
+<body background="image/cool-4k-wallpaper-2.jpg">
+    <table border="1" bgcolor="lightcoral">
+        <tr>
+            <td> <a href="">Home</a> </td>
+            <td> <a href="#about">About</a> </td>
+            <td> <a href="#service">Service</a> </td>
+            <td> <a href="#contact">Contact us</a> </td>
+        </tr>
+    </table>
+    <hr>
+
+    <table id="about">
+        <tr>
+            <td><h1>About:</h1></td>
+        </tr>
+        <tr>
+            <td class="para1">In space, no one can hear you scream. This is because there is no air in space – it is a vacuum. Sound waves cannot travel through a vacuum. <br> <br>
+                'Outer space' begins about 100 km above the Earth, where the shell of air around our planet disappears. With no air to scatter sunlight and produce a blue sky, space appears as a black blanket dotted with stars. <br> <br>
+                Space is usually regarded as being completely empty. But this is not true. The vast gaps between the stars and planets are filled with huge amounts of thinly spread gas and dust. Even the emptiest parts of space contain at least a few hundred atoms or molecules per cubic metre. <br><br>
+                Space is also filled with many forms of radiation that are dangerous to astronauts. Much of this infrared and ultraviolet radiation comes from the Sun. High energy X-rays, gamma rays and cosmic rays – particles travelling close to the speed of light – arrive from distant star systems. <br><br>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <table width="100%" border="1" id="service">
+            <h1 bgcolor="white"> <center> Gallery </center></h1>
+        <tr>
+            <td>
+                <img src="image/digital-art-minimalism-photoshop-portal-wallpaper-preview.jpg" alt=""  height="200px" width="300px">
+            </td>
+            <td>
+                <img src="image/digital-art-space-planet-stars-wallpaper-thumb.jpg" alt=""  height="200px" width="300px">
+            </td>
+            <td>
+                <img src="image/download (8).jpeg" alt=""  height="200px" width="300px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="image/ellysiumn-digital-art-dreamscape-waterscape-hd-wallpaper-thumb.jpg" alt=""  height="200px" width="300px">
+            </td>
+            <td>
+                <img src="image/pexels-johannes-plenio-1435075.jpg" alt=""  height="200px" width="300px">
+            </td>
+            <td>
+                <img src="image/planet-3840x2160-galaxy-stars-4k-16848.jpg" alt=""  height="200px" width="300px">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <table width="100%" border="1" height="100px" align="center" id="contact" bgcolor="lightcyan">
+        <tr align="center">
+            <td colspan="2"><h1>Registration Form</h1></td>
+        </tr>
+        <tr>
+            <td><label for="">Name: </label></td>
+            <td><input type="text" name="" id="" placeholder="First Name"><input type="text" name="" id="" placeholder="Last Name"></td>
+        </tr>
+
+        <tr>
+            <td><label for="">E-Mail: </label></td>
+            <td><input type="email" name="" id="" placeholder="xyz@gmail.com"></td>
+        </tr>
+
+        <tr>
+            <td><label for="">Pnone Number: </label></td>
+            <td><input type="tel" name="" id="" maxlength="10"></td>
+        </tr>
+
+        <tr>
+            <td><label for="">Gender: </label></td>
+            <td><input type="radio" name="gender" id="">Male <input type="radio" name="gender" id="">Female</td>
+        </tr>
+
+        <tr>
+            <td><label for="">Address: </label></td>
+            <td><textarea name="address" id="address" cols="80" rows="5"></textarea></td>
+        </tr>
+
+        <tr>
+            <td><label for="">City: </label></td>
+            <td><select name="City" id="City">
+                <option value="--Select City--">--Select City--</option>
+                <option value="Delhi">Delhi</option>
+                <option value=""></option>
+                <option value=""></option>
+                </select></td>
+        </tr>
+
+        <tr align="center">
+            <td colspan="2"><input type="submit" value="submit"> <input type="reset" value="reset"></td>
+        </tr>
+    </table>
+</body>
+</html>
